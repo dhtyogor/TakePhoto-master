@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_pick_take"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="pick_take"/>
+
+    <Button
+        android:id="@+id/btn_pick_select"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="btn_select"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/imgShow_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/darker_gray"
+        android:scaleType="fitCenter" />
+    <ImageView
+        android:id="@+id/imgShow_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/darker_gray"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
